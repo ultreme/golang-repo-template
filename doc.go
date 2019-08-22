@@ -1,4 +1,4 @@
-// Copyright © 2019 Manfred Touron <manfred.life>.
+// Copyright © 2019 Ultreme M1ch3l <ultre.me>.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -12,29 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// message from the author:
-//	+--------------------------------------------------------------+
-//	| * * * ░░░░░░░░░░░░░░░░░░░░  Hello  ░░░░░░░░░░░░░░░░░░░░░░░░░░|
-//	+--------------------------------------------------------------+
-//	|                                                              |
-//	|     ++              ______________________________________   |
-//	|     ++++           /                                      \  |
-//	|      ++++          |                                      |  |
-//	|    ++++++++++      |   Feel free to contribute to this    |  |
-//	|   +++       |      |       project or contact me on       |  |
-//	|   ++         |     |    manfred.life if you like this     |  |
-//	|   +  -==   ==|     |               project!               |  |
-//	|  (   <*>   <*>     |                                      |  |
-//	|   |          |    /|                  :)                  |  |
-//	|   |         _)   / |                                      |  |
-//	|   |      +++    /  \______________________________________/  |
-//	|    \      =+   /                                             |
-//	|     \      +                                                 |
-//	|     |\++++++                                                 |
-//	|     |  ++++      ||//                                        |
-//	|  ___|   |___    _||/__                                     __|
-//	| /    ---    \   \|  |||                   __ _  ___  __ __/ /|
-//	|/  |       |  \    \ /                    /  ' \/ _ \/ // / / |
-//	||  |       |  |    | |                   /_/_/_/\___/\_,_/_/  |
-//	+--------------------------------------------------------------+
-package main // import "moul.io/golang-repo-template"
+// hej!
+//         __  ______
+//        / / / / / /_________  ____ ___  ___
+//       / / / / / __/ ___/ _ \/ __ `__ \/ _ \
+//      / /_/ / / /_/ /  /  __/ / / / / /  __/
+//      \______/______   \___/_/_____/__\___/
+//         /  |/  <  /____/ /_ |__  // /
+//        / /|_/ // / ___/ __ \ /_ </ /
+//       / /  / // / /__/ / / /__/ / /
+//      /_/  /_//_/\___/_/ /_/____/_/
+package main // import "ultre.me/golang-repo-template"

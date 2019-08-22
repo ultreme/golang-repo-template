@@ -1,5 +1,5 @@
 GO ?= go
-DOCKER_IMAGE ?= moul/golang-repo-template
+DOCKER_IMAGE ?= ultreme/golang-repo-template
 
 .PHONY: install
 install:

@@ -1,18 +1,5 @@
 version: 2.1
 
-executors:
-  golang:
-    working_directory: /go/src/moul.io/golang-repo-template
-    docker:
-      - image: circleci/golang:1.12
-    environment:
-      GO111MODULE: "on"
-      DOCKER_IMAGE: moul/golang-repo-template
-
-  docker:
-    docker:
-      - image: docker:18.06.3-ce-git
-
 orbs:
   codecov: codecov/codecov@1.0.5
   moul: moul/build@1.5.0
@@ -23,7 +10,11 @@ orbs:
 
 jobs:
   go-build:
-    executor: golang
+    working_directory: /go/src/ultre.me/golang-repo-template
+    docker:
+      - image: circleci/golang:1.12
+    environment:
+      GO111MODULE: "on"
     steps:
       - checkout
       - retry/install
@@ -37,13 +28,14 @@ jobs:
           file: coverage.txt
 
   docker-build:
-    executor: docker
+    docker:
+      - image: docker:18.06.3-ce-git
     steps:
       - checkout
       - setup_remote_docker:
           docker_layer_caching: true
       - docker/build:
-          image: moul/golang-repo-template
+          image: ultreme/golang-repo-template
       #- docker/dockerlint
 
 workflows:

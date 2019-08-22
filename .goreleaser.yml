@@ -32,10 +32,10 @@ changelog:
 brew:
   name: golang-repo-template
   github:
-    owner: moul
-    name: homebrew-moul
+    owner: ultreme
+    name: homebrew-ultreme
   commit_author:
-    name: moul-bot
-    email: "m+bot@42.am"
-  homepage: https://manfred.life/
+    name: ultreme-bot
+    email: "bot@ultre.me"
+  homepage: https://ultre.me"
   description: "golang-repo-template"
