@@ -2,17 +2,17 @@ version: 2.1
 
 orbs:
   codecov: codecov/codecov@1.0.5
-  moul: moul/build@1.5.0
+  moul: moul/build@1.14.0
   retry: moul/retry@0.6.0
-  docker: circleci/docker@0.5.13
+  docker: circleci/docker@0.5.20
   #dl: moul/dl@1.7.0
-  tools: gotest/tools@0.0.10
+  tools: gotest/tools@0.0.13
 
 jobs:
   go-build:
     working_directory: /go/src/ultre.me/golang-repo-template
     docker:
-      - image: circleci/golang:1.12
+      - image: circleci/golang:1.13
     environment:
       GO111MODULE: "on"
     steps:
